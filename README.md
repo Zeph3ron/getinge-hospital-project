@@ -81,7 +81,7 @@ http://localhost:5082
 ### Example Using curl
 
 ```bash
-curl -X POST https://localhost:5001/appointments \
+curl -X POST https://localhost:5082/appointments \
 -H "Content-Type: application/json" \
 -d '{
   "cpr": "123456-7890",
